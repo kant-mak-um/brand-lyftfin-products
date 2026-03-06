@@ -1,5 +1,77 @@
 {
   "brand": "LyftFin",
   "updatedUtc": "TBD",
-  "accessories": []
+  "mountNaming": {
+    "pattern": "LF-MNT-<SYS>-C<ANG>-R01",
+    "sysCodes": ["FCS2", "FUT"],
+    "cantAnglesDeg": [0, 10, 18]
+  },
+  "compatibilityNotes": [
+    "FCS support is FCS II only (no legacy FCS).",
+    "FCS describes FCS II as a tool-less fin system at the board side; mount-to-fin conversion here is bolt-on for strength.",
+    "Common fin-system guidance states FCS II fins only work in FCS II boxes."
+  ],
+  "mounts": [
+    {
+      "sku": "LF-MNT-FCS2-C00-R01",
+      "name": "Mount — FCS II (Vertical 0°)",
+      "category": "Mount",
+      "system": "FCS2",
+      "cantDeg": 0,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-MNT-FCS2-C10-R01",
+      "name": "Mount — FCS II (Cant 10°)",
+      "category": "Mount",
+      "system": "FCS2",
+      "cantDeg": 10,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-MNT-FCS2-C18-R01",
+      "name": "Mount — FCS II (Cant 18°)",
+      "category": "Mount",
+      "system": "FCS2",
+      "cantDeg": 18,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    },
+
+    {
+      "sku": "LF-MNT-FUT-C00-R01",
+      "name": "Mount — Futures (Vertical 0°)",
+      "category": "Mount",
+      "system": "FUT",
+      "cantDeg": 0,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-MNT-FUT-C10-R01",
+      "name": "Mount — Futures (Cant 10°)",
+      "category": "Mount",
+      "system": "FUT",
+      "cantDeg": 10,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-MNT-FUT-C18-R01",
+      "name": "Mount — Futures (Cant 18°)",
+      "category": "Mount",
+      "system": "FUT",
+      "cantDeg": 18,
+      "finInterface": "Universal (same interface for Dolphin/Shark/Sailfish)",
+      "attachmentToFin": "Bolt-on (high strength; not a quick swap)",
+      "status": "Planned"
+    }
+  ]
 }
