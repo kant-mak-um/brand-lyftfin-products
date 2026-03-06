@@ -1,5 +1,289 @@
 {
   "brand": "LyftFin",
   "updatedUtc": "TBD",
-  "products": []
+  "notes      "status": "Planned"  "notes": [
+    },
+    {
+      "sku": "LF-LB-DOL-M-FLX-R01",
+      "name": "Longboard/SUP Dolphin — Medium (Flexible)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "M",
+      "flex": "Flexible",
+      "material": "Flexible epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "M",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "status": "Planned"
+    },
+
+    {
+      "sku": "LF-LB-DOL-L-HRD-R01",
+      "name": "Longboard/SUP Dolphin — Large (Hard)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "L",
+      "flex": "Hard",
+      "material": "Hard epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "L",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-LB-DOL-L-FLX-R01",
+      "name": "Longboard/SUP Dolphin — Large (Flexible)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "L",
+      "flex": "Flexible",
+      "material": "Flexible epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "L",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "status": "Planned"
+    }
+  ],
+
+  "futureConcepts": [
+    {
+      "sku": "LF-AUX-HF-001",
+      "name": "Rail-Lift Micro-Foil (Concept)",
+      "segment": "R&D",
+      "status": "Concept",
+      "notes": "Concept: small hydrofoil elements on fins for extra lift when the board is on rail. Not finalized."
+    }
+  ]
 }
+    "Design-level only. Manufacturing process parameters are intentionally not published.",
+    "Surf/SUP fins use a bolt-on mount system: choose FCS II or Futures mount at purchase; mount determines cant (0°, 10°, 18°).",
+    "Mount-to-fin interface is universal across Dolphin/Shark/Sailfish.",
+    "Longboard/SUP fins have an integrated longboard base (not modular)."
+  ],
+  "constructionStandard": {
+    "shell": "Ixoskin",
+    "core": "Isogrid",
+    "coreDetail": "Isogrid cell sizes are smaller near edges (design intent)."
+  },
+
+  "surfSupFinBlades": [
+    {
+      "sku": "LF-FIN-DOL-STD-R01",
+      "name": "LyftFin Dolphin — Standard Fin Blade",
+      "segment": "Surf/SUP",
+      "shape": "Dolphin",
+      "releaseStage": "Initial",
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "mounting": {
+        "requiresMount": true,
+        "mountInterface": "Universal (same interface across Dolphin/Shark/Sailfish)",
+        "supportedMountSystems": ["FCS2", "FUT"],
+        "cantOptionsDeg": [0, 10, 18],
+        "mountSelectionNote": "Customer selects an FCS II or Futures mount and cant angle at purchase. Mount conversion is bolt-on for strength; not a quick swap."
+      },
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-FIN-SHK-STD-R01",
+      "name": "LyftFin Shark — Standard Fin Blade",
+      "segment": "Surf/SUP",
+      "shape": "Shark",
+      "releaseStage": "Initial",
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "mounting": {
+        "requiresMount": true,
+        "mountInterface": "Universal (same interface across Dolphin/Shark/Sailfish)",
+        "supportedMountSystems": ["FCS2", "FUT"],
+        "cantOptionsDeg": [0, 10, 18],
+        "mountSelectionNote": "Customer selects an FCS II or Futures mount and cant angle at purchase. Mount conversion is bolt-on for strength; not a quick swap."
+      },
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-FIN-SFL-STD-R01",
+      "name": "LyftFin Sailfish — Standard Fin Blade",
+      "segment": "Surf/SUP",
+      "shape": "Sailfish",
+      "releaseStage": "Initial",
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "mounting": {
+        "requiresMount": true,
+        "mountInterface": "Universal (same interface across Dolphin/Shark/Sailfish)",
+        "supportedMountSystems": ["FCS2", "FUT"],
+        "cantOptionsDeg": [0, 10, 18],
+        "mountSelectionNote": "Customer selects an FCS II or Futures mount and cant angle at purchase. Mount conversion is bolt-on for strength; not a quick swap."
+      },
+      "status": "Planned"
+    }
+  ],
+
+  "bundles": [
+    {
+      "sku": "LF-SET-1-DOL-R01",
+      "name": "Single Fin — Dolphin (mount chosen at checkout)",
+      "bundleType": "Single",
+      "contents": [{ "sku": "LF-FIN-DOL-STD-R01", "qty": 1 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-3-DOL-R01",
+      "name": "Thruster Set (3) — Dolphin (bundle discount; mounts chosen per fin)",
+      "bundleType": "Thruster",
+      "contents": [{ "sku": "LF-FIN-DOL-STD-R01", "qty": 3 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-5-DOL-R01",
+      "name": "5-Fin Set — Dolphin (bundle discount; mounts chosen per fin)",
+      "bundleType": "FiveFin",
+      "contents": [{ "sku": "LF-FIN-DOL-STD-R01", "qty": 5 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+
+    {
+      "sku": "LF-SET-1-SHK-R01",
+      "name": "Single Fin — Shark (mount chosen at checkout)",
+      "bundleType": "Single",
+      "contents": [{ "sku": "LF-FIN-SHK-STD-R01", "qty": 1 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-3-SHK-R01",
+      "name": "Thruster Set (3) — Shark (bundle discount; mounts chosen per fin)",
+      "bundleType": "Thruster",
+      "contents": [{ "sku": "LF-FIN-SHK-STD-R01", "qty": 3 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-5-SHK-R01",
+      "name": "5-Fin Set — Shark (bundle discount; mounts chosen per fin)",
+      "bundleType": "FiveFin",
+      "contents": [{ "sku": "LF-FIN-SHK-STD-R01", "qty": 5 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+
+    {
+      "sku": "LF-SET-1-SFL-R01",
+      "name": "Single Fin — Sailfish (mount chosen at checkout)",
+      "bundleType": "Single",
+      "contents": [{ "sku": "LF-FIN-SFL-STD-R01", "qty": 1 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-3-SFL-R01",
+      "name": "Thruster Set (3) — Sailfish (bundle discount; mounts chosen per fin)",
+      "bundleType": "Thruster",
+      "contents": [{ "sku": "LF-FIN-SFL-STD-R01", "qty": 3 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-SET-5-SFL-R01",
+      "name": "5-Fin Set — Sailfish (bundle discount; mounts chosen per fin)",
+      "bundleType": "FiveFin",
+      "contents": [{ "sku": "LF-FIN-SFL-STD-R01", "qty": 5 }],
+      "requiresMountPerFin": true,
+      "status": "Planned"
+    }
+  ],
+
+  "longboardSupFins": [
+    {
+      "sku": "LF-LB-DOL-S-HRD-R01",
+      "name": "Longboard/SUP Dolphin — Small (Hard)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "S",
+      "flex": "Hard",
+      "material": "Hard epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "S",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "status": "Planned"
+    },
+    {
+      "sku": "LF-LB-DOL-S-FLX-R01",
+      "name": "Longboard/SUP Dolphin — Small (Flexible)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "S",
+      "flex": "Flexible",
+      "material": "Flexible epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "S",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
+      "status": "Planned"
+    },
+
+    {
+      "sku": "LF-LB-DOL-M-HRD-R01",
+      "name": "Longboard/SUP Dolphin — Medium (Hard)",
+      "segment": "Longboard/SUP",
+      "shape": "Dolphin",
+      "size": "M",
+      "flex": "Hard",
+      "material": "Hard epoxy",
+      "mounting": {
+        "integratedLongboardBase": true,
+        "baseLength": "M",
+        "cant": "None"
+      },
+      "construction": {
+        "shell": "Ixoskin",
+        "core": "Isogrid",
+        "coreDetail": "Smaller isogrid cells near edges (design intent)."
+      },
